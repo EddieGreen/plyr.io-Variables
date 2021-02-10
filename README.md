@@ -2,13 +2,21 @@
 
 Default playr.io CSS generated with variables, allowing users to modify player appearance and functionality using CSS variables.
 
-This is based on compiled SCSS code from https://github.com/sampotts/plyr version 3.6.3
+## plyr.io
+
+This is based on compiled SCSS code from https://github.com/sampotts/plyr.
+
+Current CSS version 3.6.4
 
 ## CDN Sources
 
 https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.min.css
 
 https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.css
+
+## Visual Studio 2019
+
+The project can be opened and modified as a web site project - See solution file. Requires Web Essentials 2019 extension in VS2019 in order to compile scss/sass code - see https://github.com/madskristensen/WebEssentials2019
 
 ## Usage Example
 
