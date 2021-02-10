@@ -51,6 +51,7 @@ Set for a specific class of player
 
 Set to individual player
 ```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.min.css" />
 <video class="player" style="--plyr-color-main: #d62a14; --plyr-font-size-captions-large: 21px; --plyr-control-radius: 50%;">
     ...
 </video>
