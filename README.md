@@ -6,9 +6,15 @@ Default playr.io CSS generated with variables, allowing users to modify player a
 
 This is based on compiled SCSS code from https://github.com/sampotts/plyr.
 
-Current CSS version 3.6.4
+The latest release in this repo adopts the version number of the code available in the playr.io repository.
+
+### Revisions
+
+**10/02/2021** - 3.6.4
 
 ## CDN Sources
+
+The compiled CSS is available using the following CDN sources. These will always be the latest version published in this repo. See revisions above.
 
 https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.min.css
 
