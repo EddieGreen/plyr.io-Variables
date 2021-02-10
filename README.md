@@ -26,22 +26,34 @@ The project can be opened and modified as a web site project - See solution file
 
 ## Usage Example
 
+Set for all players - CSS selector targets `:root`
+
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.min.css" />
 <style>
 :root {
   --plyr-color-main: #d62a14;
-  --plyr-font-size-base: 13px;
-  --plyr-font-size-small: 12px;
-  --plyr-font-size-time: 11px;
-  --plyr-font-size-badges: 9px;
-  --plyr-font-size-menu: var(--plyr-font-size-base);
-  --plyr-font-weight-regular: 500;
-  --plyr-font-weight-bold: 600;
-  --plyr-font-size-captions-medium: 18px;
   --plyr-font-size-captions-large: 21px;
   --plyr-control-radius: 50%; }
 </style>
+```
+
+Set for a specific class of player
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EddieGreen/plyr.io-Variables@master/plyr.min.css" />
+<style>
+.sample_player {
+  --plyr-color-main: #d62a14;
+  --plyr-font-size-captions-large: 21px;
+  --plyr-control-radius: 50%; }
+</style>
+```
+
+Set to individual player
+```
+<video class="player" style="--plyr-color-main: #d62a14; --plyr-font-size-captions-large: 21px; --plyr-control-radius: 50%;">
+    ...
+</video>
 ```
 
 ## Customizing the CSS
@@ -115,28 +127,3 @@ Here's a list of the properties and what they are used for:
 | `--plyr-font-weight-bold`                      | The bold font weight.                                                                                   | `600`                                                                 |
 | `--plyr-line-height`                           | The line height used within the player.                                                                 | `1.7`                                                                 |
 | `--plyr-font-smoothing`                        | Whether to enable font antialiasing within the player.                                                  | `false`                                                               |
-
-You can set them in your CSS for all players:
-
-```css
-:root {
-  --plyr-color-main: #1ac266;
-}
-```
-
-...or for a specific class name:
-
-```css
-.player {
-  --plyr-color-main: #1ac266;
-}
-```
-
-...or in your HTML:
-
-```html
-<video class="player" style="--plyr-color-main: #1ac266;">
-    ...
-</video>
-```
-
